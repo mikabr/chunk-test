@@ -1,16 +1,14 @@
 numerical_vars:
-  - bill_length_mm
-  - bill_depth_mm
-  - flipper_length_mm
-  - body_mass_g
+  - temperature_c
+  - rainfall_mm
+  - count
 
 categorical_vars:
-  - species
-  - island
-  - sex
+  - region
+  - habitat
   - year
 
 defaults:
-  x: bill_length_mm
-  y: bill_depth_mm
-  color: island
+  x: temperature_c
+  y: rainfall_mm
+  color: region

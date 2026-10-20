@@ -1,22 +1,18 @@
 project:
-  title: "Palmer Penguins"
+  title: "Chunk Test"
   type: datapage
-
-website:
-  navbar:
-    logo: images/logo.png
 
 format:
   datapage-html:
     theme: theme.scss
 
-execute: 
+execute:
   echo: false
   message: false
   warning: false
   error: false
 
 redivis:
-  user: datapages
-  dataset: palmerpenguins
-  table: penguins
+  user: mikabr
+  dataset: chunk_test
+  table: chunk_test
